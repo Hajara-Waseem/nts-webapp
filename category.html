@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>NTS Prep - Category</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <span>NP</span>
+            NTS Prep
+        </div>
+        <nav>
+            <a href="index.html">
+                Home
+            </a>
+            <a href="index.html#categories">
+                Categories
+            </a>
+        </nav>
+    </header>
+
+    <!-- CATEGORY HERO -->
+    <section class="category-hero">
+        <div>
+            <div
+                class="large-icon"
+                id="categoryIcon">
+                🔤
+            </div>
+            <p class="tag">
+                Practice Area
+            </p>
+            <h1 id="categoryTitle">
+                Verbal Reasoning
+            </h1>
+            <p id="categoryDescription">
+                Improve your verbal reasoning skills.
+            </p>
+        </div>
+    </section>
+
+    <!-- LEARNING CONTENT -->
+    <main class="learning-container">
+        <!-- HOW TO SOLVE -->
+        <section class="learning-card">
+            <div class="learning-heading">
+                <span class="learning-number">
+                    01
+                </span>
+                <div>
+                    <p class="mini-label">
+                        LEARN THE BASICS
+                    </p>
+                    <h2>
+                        🧠 How to Solve
+                    </h2>
+                </div>
+            </div>
+            <p
+                id="howToSolve"
+                class="learning-text">
+                Loading...
+            </p>
+        </section>
+
+        <!-- EXAMPLE -->
+        <section class="learning-card example-card">
+            <div class="learning-heading">
+                <span class="learning-number">
+                    02
+                </span>
+                <div>
+                    <p class="mini-label">
+                        PRACTICE EXAMPLE
+                    </p>
+                    <h2>
+                        ✏️ Example
+                    </h2>
+                </div>
+            </div>
+
+            <div class="example-question">
+                <span>
+                    Question
+                </span>
+                <h3 id="exampleQuestion">
+                    Loading...
+                </h3>
+            </div>
+            <div class="example-answer">
+                <div>
+                    <span>
+                        Answer
+                    </span>
+                    <strong id="exampleAnswer">
+                        Loading...
+                    </strong>
+                </div>
+
+                <p id="exampleExplanation">
+                    Loading...
+                </p>
+            </div>
+        </section>
+
+        <!-- TOPICS -->
+        <section class="learning-card">
+            <div class="learning-heading">
+                <span class="learning-number">
+                    03
+                </span>
+                <div>
+                    <p class="mini-label">
+                        TOPICS
+                    </p>
+                    <h2>
+                        📚 What You Will Practice
+                    </h2>
+                </div>
+            </div>
+
+            <div
+                class="topics"
+                id="topics">
+            </div>
+        </section>
+
+        <!-- TIPS -->
+        <section class="tips-card">
+            <h2>
+                💡 Preparation Tips
+            </h2>
+            <ul id="tips">
+            </ul>
+        </section>
+
+        <!-- START QUIZ -->
+        <div class="quiz-start">
+            <div class="quiz-start-icon">
+                🚀
+            </div>
+            <h2>
+                Ready to Test Yourself?
+            </h2>
+            <p>
+                Attempt 5 timed questions
+                from this category.
+            </p>
+            <button
+                class="btn"
+                onclick="startQuiz()">
+
+                Start Quiz →
+
+            </button>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">
+            NTS Prep
+        </div>
+        <p>
+            Practice today. Perform better tomorrow.
+        </p>
+        <p class="copyright">
+            © 2026 NTS Prep. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

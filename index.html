@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTS Prep - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span>NP</span>
+            NTS Prep
+        </div>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#categories">Categories</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tag">Prepare Smarter</p>
+            <h1>NTS Preparation Made <span>Simple</span></h1>
+            <p>
+                Practice Verbal, Quantitative, Analytical Reasoning
+                and General Knowledge questions with our interactive quizzes.
+            </p>
+
+            <a href="#categories" class="btn">Start Practicing</a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories" id="categories">
+
+        <div class="section-heading">
+            <p>Practice Areas</p>
+            <h2>Choose a Category</h2>
+            <span>Improve your preparation one topic at a time.</span>
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card verbal">
+                <div class="card-icon">🔤</div>
+                <h3>Verbal Reasoning</h3>
+                <p>
+                    Practice vocabulary, analogies, sentence completion
+                    and verbal relationships.
+                </p>
+                <button onclick="openCategory('verbal')">
+                    Learn & Practice →
+                </button>
+            </div>
+
+            <div class="category-card quantitative">
+                <div class="card-icon">🔢</div>
+                <h3>Quantitative</h3>
+                <p>
+                    Practice percentages, ratios, averages, algebra
+                    and mathematical problems.
+                </p>
+                <button onclick="openCategory('quantitative')">
+                    Learn & Practice →
+                </button>
+            </div>
+
+            <div class="category-card analytical">
+                <div class="card-icon">🧩</div>
+                <h3>Analytical Reasoning</h3>
+                <p>
+                    Test your logical thinking with sequences,
+                    patterns and reasoning problems.
+                </p>
+                <button onclick="openCategory('analytical')">
+                    Learn & Practice →
+                </button>
+            </div>
+
+            <div class="category-card gk">
+                <div class="card-icon">🌍</div>
+                <h3>General Knowledge</h3>
+                <p>
+                    Improve your knowledge of Pakistan, science,
+                    geography and world affairs.
+                </p>
+                <button onclick="openCategory('gk')">
+                    Learn & Practice →
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div>
+            <strong>20+</strong>
+            <span>Practice Questions</span>
+        </div>
+
+        <div>
+            <strong>4</strong>
+            <span>Categories</span>
+        </div>
+
+        <div>
+            <strong>Instant</strong>
+            <span>Results</span>
+        </div>
+
+        <div>
+            <strong>Free</strong>
+            <span>Practice</span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">NTS Prep</div>
+        <p>Practice today. Perform better tomorrow.</p>
+        <p class="copyright">© 2026 NTS Prep. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

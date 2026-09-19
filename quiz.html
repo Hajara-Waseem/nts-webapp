@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>NTS Prep - Quiz</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <span>NP</span>
+            NTS Prep
+        </div>
+
+        <nav>
+            <a href="index.html">
+                Home
+            </a>
+            <a href="index.html#categories">
+                Categories
+            </a>
+        </nav>
+    </header>
+
+    <!-- QUIZ -->
+    <main class="quiz-container">
+        <!-- QUIZ TOP -->
+        <div class="quiz-top">
+            <div>
+                <p id="quizCategory">
+                    Verbal Reasoning
+                </p>
+                <h2>
+                    NTS Practice Quiz
+                </h2>
+            </div>
+
+            <div class="quiz-stats">
+                <div class="live-score">
+                    ⭐ Score:
+                    <strong id="liveScore">
+                        0
+                    </strong>
+                </div>
+
+                <div class="timer">
+                    ⏱️
+                    <span id="timer">
+                        02:00
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROGRESS -->
+        <div class="progress-area">
+            <div class="progress-text">
+                <span>
+                    Question
+                    <b id="questionNumber">
+                        1
+                    </b>
+                    of 5
+                </span>
+
+                <span id="progressPercent">
+                    20%
+                </span>
+            </div>
+
+            <div class="progress-bar">
+                <div id="progress">
+                </div>
+            </div>
+        </div>
+
+        <!-- QUESTION -->
+        <section class="question-card">
+            <p class="question-label">
+                QUESTION
+            </p>
+            <h2 id="question">
+                Loading question...
+            </h2>
+
+            <div
+                id="options"
+                class="options">
+            </div>
+
+            <!-- FEEDBACK -->
+            <div
+                id="feedback"
+                class="feedback hidden">
+                <strong id="feedbackTitle">
+                </strong>
+                <p id="feedbackText">
+                </p>
+            </div>
+
+            <!-- NEXT -->
+            <button
+                id="nextButton"
+                class="next-btn"
+                onclick="nextQuestion()"
+                disabled>
+                Next Question →
+            </button>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-logo">
+            NTS Prep
+        </div>
+        <p>Practice today. Perform better tomorrow.</p>
+        <p class="copyright">
+            © 2026 NTS Prep. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

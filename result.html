@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>NTS Prep - Result</title>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <span>NP</span>
+            NTS Prep
+        </div>
+        <nav>
+            <a href="index.html">
+                Home
+            </a>
+            <a href="index.html#categories">
+                Categories
+            </a>
+        </nav>
+    </header>
+
+    <!-- RESULT -->
+    <main class="result-container">
+        <div class="result-card">
+            <div
+                class="result-icon"
+                id="resultIcon">
+                🏆
+            </div>
+            <p class="result-label">
+                QUIZ COMPLETED
+            </p>
+            <h1 id="resultTitle">
+                Excellent! 🎉
+            </h1>
+            <p
+                class="result-category"
+                id="resultCategory">
+\
+                Verbal Reasoning
+
+            </p>
+            <!-- SCORE -->
+
+            <div class="score-circle">
+                <span id="score">
+                    0
+                </span>
+                <small>
+                    /
+                    <span id="totalQuestions">
+                        5
+                    </span>
+                </small>
+            </div>
+
+            <h2 id="percentage">
+                0%
+            </h2>
+            <p id="resultMessage">
+                Keep practicing to improve your score.
+            </p>
+            <!-- BREAKDOWN -->
+            <div class="result-stats">
+                <div>
+                    <strong id="correctAnswers">
+                        0
+                    </strong>
+                    <span>
+                        Correct
+                    </span>
+                </div>
+
+                <div>
+                    <strong id="wrongAnswers">
+                        0
+                    </strong>
+                    <span>
+                        Incorrect
+                    </span>
+                </div>
+
+                <div>
+                    <strong id="totalQuestions2">
+                        5
+                    </strong>
+
+                    <span>
+                        Total
+                    </span>
+                </div>
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="result-buttons">
+                <button
+                    class="btn"
+                    onclick="retryQuiz()">
+
+                    Try Again
+
+                </button>
+
+                <button
+                    class="outline-btn"
+                    onclick="backToCategories()">
+
+                    Back to Categories
+
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-logo">
+            NTS Prep
+        </div>
+
+        <p>
+            Practice today. Perform better tomorrow.
+        </p>
+        <p class="copyright">
+            © 2026 NTS Prep. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
